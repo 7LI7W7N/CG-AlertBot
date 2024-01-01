@@ -86,7 +86,7 @@ async def on_message(message):
 keep_alive()
 
 # - Run the Client and Add Token
-BOT_TOKEN = 'MTE5MTI3MTc0OTk4NDE5NDY1MA.G9wfL2.FBmHz8kBgY-BhrDWty6UytTedHCJZCFrZC5Oqk'
+BOT_TOKEN = 'TOKEN HERE'
 client.run(BOT_TOKEN)
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
